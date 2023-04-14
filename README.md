@@ -1,6 +1,8 @@
 # CypressAutomationSample_One
 Cypress Features
 
+Branch - Master
+
 ------IN PROGRESS-----
 
 Notes: npm init
