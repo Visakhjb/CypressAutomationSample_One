@@ -6,7 +6,7 @@ describe('File Upload DragAndDrop',()=>{
     cy.visit('https://the-internet.herokuapp.com/upload');
 
     cy.get('#drag-drop-upload').attachFile('API.docx',{subjectType:'drag-n-drop'});
-    cy.get('#file-submit').click();
+    //cy.get('#file-submit').click();
 
     cy.get('h3').should('have.text','File Uploaded!');
     })
